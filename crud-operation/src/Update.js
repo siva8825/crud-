@@ -19,7 +19,7 @@ axios.get('http://localhost:3006/Users/'+id)
 .then(res=> setInputData(res.data))
 .catch(err=> console.log(err))
 
-}, [id])
+},[id])
 
     const handleSubmit =(event)=>{
         event.preventDefault('')
@@ -59,7 +59,7 @@ axios.get('http://localhost:3006/Users/'+id)
   onChange={e=>setInputData({...inputData, email: e.target.value})}
 />
 </div><br />
-<button className='btn btn-info'>Update</button>
+<button className='btn btn-info'>update</button>
 
             </form>
         </div>
