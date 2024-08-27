@@ -1,11 +1,10 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
-import { Link, useNavigate, useParams } from 'react-router-dom'
+import { Link, useParams } from 'react-router-dom'
 
 
 const Read = () => {
 const {id} = useParams()
-const navigate = useNavigate()
 const [Data , setdata] = useState([])
 
 useEffect(()=>{
@@ -13,8 +12,7 @@ useEffect(()=>{
     .then(res=> setdata(res.data))
     .catch(err=> console.log(err))
     
-    }, [])
-
+    },[id])
 
   return (
     <div className='container'>
