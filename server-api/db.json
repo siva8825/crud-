@@ -1,0 +1,32 @@
+{
+  "Users": [
+    {
+      "id": "1",
+      "name": "Sivaneshkumar34",
+      "age": 20,
+      "city": "Pollachi",
+      "email": "sivaneshk82612@gmail.com"
+    },
+    {
+      "id": "2",
+      "name": "Thou",
+      "age": 21,
+      "city": "Kumaran Nagar",
+      "email": "thou@gmail.com"
+    },
+    {
+      "id": "3",
+      "name": "Jamal",
+      "age": 19,
+      "city": "valiammal layout",
+      "email": "jamal@gmail.com"
+    },
+    {
+      "id": "4",
+      "name": "Yasar",
+      "age": 18,
+      "city": "Jothi Nagar",
+      "email": "yasar@gmail.com"
+    }
+  ]
+}
